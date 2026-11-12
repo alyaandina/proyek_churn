@@ -747,6 +747,6 @@ html("""
   <div>CUSTOMER RETENTION SYSTEM</div>
   <div class="footer-note">Aplikasi prediksi churn pelanggan berbasis Machine Learning</div>
   <div class="footer-note">Proyek Akhir Machine Learning · Dataset Telco Customer Churn</div>
-  <div class="footer-note">By:Alya Andina</div>
+  <div class="footer-note">By : Alya Andina</div>
 </div>
 """)
