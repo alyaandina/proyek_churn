@@ -63,7 +63,7 @@ components.html(
                     document.querySelectorAll('[data-testid="stSelectbox"], [data-testid="stNumberInput"]').forEach(function (root) {
                         var k = kontrol(root);
                         if (!k) { return; }
-                        k.style.setProperty("outline", "1px solid #b8bfe3", "important");
+                        k.style.setProperty("outline", "1px solid #b8c6e8", "important");
                         k.style.setProperty("outline-offset", "0px", "important");
                         k.style.setProperty("border-radius", "10px", "important");
                         k.style.setProperty("background-color", "#ffffff", "important");
@@ -582,7 +582,7 @@ if hasil is not None:
         <p>{info['teks']}</p>
       </div>
       <div class="result-right">
-        <div class="gauge" style="background:conic-gradient({info['warna']} {prob * 100:.1f}%, #e6e8f4 0)">
+        <div class="gauge" style="background:conic-gradient({info['warna']} {prob * 100:.1f}%, #e6ebf6 0)">
           <div class="gauge-inner">
             <span class="gauge-angka" style="color:{info['warna']}">{persen(prob)}</span>
             <span class="gauge-cap">PELUANG CHURN</span>
